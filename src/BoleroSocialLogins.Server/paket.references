@@ -1,0 +1,11 @@
+Bolero.Server
+Bolero.HotReload.Server
+Microsoft.AspNetCore.Components.WebAssembly.Server
+Microsoft.AspNetCore.Authentication.Google
+Microsoft.AspNetCore.Authentication.MicrosoftAccount
+AspNet.Security.OAuth.GitHub
+FSharp.Control.FusionTasks
+Serilog
+Serilog.AspNetCore
+Serilog.Extensions.Logging
+Serilog.Sinks.Console

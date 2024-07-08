@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <UserSecretsId>24a94011-5599-4738-a6db-d873e8475a38</UserSecretsId>
+    <RootNamespace>SocialLoginTest.Server</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Services\IIdentityService.fs" />
+    <Compile Include="Services\InMemoryIdentityService.fs" />
+    <Compile Include="Extensions.fs" />
+    <Compile Include="AccountService.fs" />
+    <Compile Include="Constants.fs" />
+    <Compile Include="Index.fs" />
+    <Compile Include="Startup.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BoleroSocialLogins.Client\BoleroSocialLogins.Client.fsproj" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

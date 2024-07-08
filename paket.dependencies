@@ -1,0 +1,21 @@
+source https://api.nuget.org/v3/index.json
+framework: net8.0
+storage: none
+
+nuget FSharp.Control.FusionTasks
+nuget FSharp.Core content: none
+nuget Bolero 
+nuget Bolero.Build 
+nuget Bolero.HotReload 
+nuget Bolero.HotReload.Server 
+nuget Bolero.Server 
+nuget Microsoft.AspNetCore.Authentication.Google >= 8.0.0
+nuget Microsoft.AspNetCore.Authentication.MicrosoftAccount >= 8.0.0
+nuget AspNet.Security.OAuth.GitHub >= 8.0.0
+nuget Microsoft.AspNetCore.Components.WebAssembly.Server >= 8.0.0
+nuget Microsoft.AspNetCore.Components.WebAssembly >= 8.0.0
+nuget Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.0
+nuget Serilog
+nuget Serilog.AspNetCore
+nuget Serilog.Extensions.Logging
+nuget Serilog.Sinks.Console
